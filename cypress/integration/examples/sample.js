@@ -2,8 +2,8 @@ describe('DemoSuite', function()
 {
     it('landingpage',function()
     {
-    cy.visit('https://new.edmodoqabranch.com/')
-    cy.title().should('eq','Edmodo')
+    cy.visit('https://go.edmodo.com/teachers/')
+    cy.title().should('eq','Teachers - Edmodo')
     })
 
   })
